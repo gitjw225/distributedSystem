@@ -10,7 +10,7 @@ public class Main {
   private static final int TOTAL_REQUESTS = 200000;
   private static final int INITIAL_THREADS = 32;
   private static final int INITIAL_REQUESTS_PER_THREAD = 1000;
-  private static final int SUBSEQUENT_THREADS = 168;
+  private static final int SUBSEQUENT_THREADS = 300;
 
   public static void main(String[] args) throws InterruptedException, IOException {
     long startTime = System.currentTimeMillis();

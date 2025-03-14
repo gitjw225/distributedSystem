@@ -54,7 +54,10 @@ import io.swagger.client.auth.OAuth;
 public class ApiClient {
 
 //    private String basePath = "http://localhost:8080/servlet";
-    private String basePath = "http://52.11.225.181:8080/skiers-servlet-1.0-SNAPSHOT";
+//    private String basePath = "http://52.11.225.181:8080/skiers-servlet-1.0-SNAPSHOT";
+//    private String basePath = "http://localhost:8080";
+    private String basePath = "http://LoadBalancerClientFacing-398261328.us-west-2.elb.amazonaws.com";
+//    private String basePath = "http://54.191.177.13:8080";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
