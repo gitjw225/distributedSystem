@@ -1,0 +1,64 @@
+# 忽略所有 build 目录，但保留 libs 目录下的 jar 文件
+/build/
+!build/libs/
+!build/libs/*.jar
+
+# 忽略 Gradle 相关缓存文件
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+settings.gradle
+
+# 忽略 IDE 相关文件
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# 忽略 STS（Spring Tool Suite）相关文件
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# 忽略编译后的 bin 目录
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# 忽略 NetBeans 相关文件
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# 只保留 build.gradle
+!build.gradle
+.gitattributes
+.gitignore
+
+# 只保留 Java 源代码文件
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+HELP.md
+
+# 确保 src 目录下的 Java 文件被跟踪
+!src/main/java/**/*.java
+!src/test/java/**/*.java
+
+!.gitignore
+!.idea/.gitignore
